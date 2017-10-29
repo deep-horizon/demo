@@ -1,0 +1,10 @@
+venv/
+*.pycvenv/
+*.pyc
+*.log
+data/
+.env
+.idea/
+tmp/
+*.pem
+bin/
