@@ -11,6 +11,8 @@ dh_client = DeepHorizon(
 resp = dh_client.predict()
 resp_body = json.loads(resp.content)
 
+print resp_body
+
 if resp_body.get('ok'):
   price = resp_body['prediction']
   print price
