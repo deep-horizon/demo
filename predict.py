@@ -12,6 +12,6 @@ for row in rows:
   resp = edge_ai_client.predict(row)
 
   # Extract price prediction from response
-  prediction = resp.get('prediction')
+  price = resp.get('prediction')
 
-  print '{} --> {}:   ${:,.2f}'.format(row.get('ORIG'), row.get('DEST'), prediction)
+  print '{} --> {}:   ${:,.2f}'.format(row.get('ORIG'), row.get('DEST'), price)
