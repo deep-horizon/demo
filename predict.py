@@ -14,4 +14,4 @@ for row in rows:
   # Extract price prediction from response
   prediction = resp.get('prediction')
 
-  print '{} --> {}:  {}'.format(row.get('ORIG'), row.get('DEST'), prediction)
+  print '{} --> {}:   ${:,.2f}'.format(row.get('ORIG'), row.get('DEST'), prediction)
