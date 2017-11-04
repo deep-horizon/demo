@@ -1,1 +1,1 @@
-horizon_py==0.1
+edge_ai==0.1.0

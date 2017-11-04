@@ -8,3 +8,4 @@ data/
 tmp/
 *.pem
 bin/
+rows.json
